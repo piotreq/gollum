@@ -11,6 +11,10 @@ module Precious
     register Mustache::Sinatra
 
     dir = File.dirname(File.expand_path(__FILE__))
+    
+    before do
+      @user = session[:user]
+    end
 
     # We want to serve public assets for now
     set :public_folder, "#{dir}/public"
