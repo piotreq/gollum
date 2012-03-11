@@ -218,7 +218,9 @@ module Precious
     end
 
     def commit_message
-      { :message => params[:message] }
+      { :message => params[:message],
+        :name => session[:user][:name],
+        :email => "#{session[:user][:nickname]}@desuka.com"}
     end
   end
 end
