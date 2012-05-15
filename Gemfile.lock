@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/piotreq/grit.git
-  revision: c6d4a70fd71771c0b78a8e1e820701545d80d5aa
+  revision: 8ecf3ae1d5b36a3b8cbd67af9f217f877c82cf51
   specs:
     grit (2.5.0)
       diff-lcs (~> 1.1)
