@@ -1,5 +1,12 @@
 GIT
-  remote: git://github.com/piotreq/grit.git
+  remote: https://github.com/bdewey/org-ruby.git
+  revision: 12e835d7a2a49eb7a6cf49c7a96f5b386bbf1f01
+  specs:
+    org-ruby (0.6.1)
+      rubypants (>= 0.2.0)
+
+GIT
+  remote: https://github.com/piotreq/grit.git
   revision: c6d4a70fd71771c0b78a8e1e820701545d80d5aa
   specs:
     grit (2.5.0)
@@ -37,8 +44,6 @@ GEM
       metaclass (~> 0.0.1)
     mustache (0.99.4)
     nokogiri (1.5.2)
-    org-ruby (0.6.0)
-      rubypants (>= 0.2.0)
     posix-spawn (0.3.6)
     pygments.rb (0.2.12)
       rubypython (~> 0.5.3)
@@ -77,7 +82,7 @@ DEPENDENCIES
   gollum!
   grit!
   mocha
-  org-ruby
+  org-ruby!
   rack-test
   rake (~> 0.9.2)
   shoulda
